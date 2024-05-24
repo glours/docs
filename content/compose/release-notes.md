@@ -10,6 +10,23 @@ aliases:
 
 For more detailed information, see the [release notes in the Compose repo](https://github.com/docker/compose/releases/).
 
+## 2.27.1
+
+{{< release-date date="2024-05-24" >}}
+
+### Update
+
+- Dependencies upgrade: bump compose-go to v2.1.1
+- Dependencies upgrade: bump docker engine and cli to v26.1.3
+- Dependencies upgrade: bump containerd to 1.7.17
+- Dependencies upgrade: bump buildx to 0.14.1
+
+### Bug fixes and enhancements
+
+- Introduced new navigation menu to open Compose configuration in Docker Desktop
+- Fixed a bug when using `--no-interpolate` with `--resolve-image-digests`
+- Added documentation about usage of `--menu` up option and `COMPOSE_MENU` environment var
+
 ## 2.27.0
 
 {{< release-date date="2024-04-24" >}}
